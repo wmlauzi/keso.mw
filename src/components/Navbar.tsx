@@ -47,7 +47,7 @@ const Navbar = () => {
           className="inline-flex items-center transition-transform hover:scale-105"
           aria-label="KESO home"
         >
-          <img src="/logo.png" alt="KESO logo" className="h-10 w-auto" />
+          <img src="/logo.png" alt="KESO logo" className="h-14 w-auto md:h-16" />
         </a>
 
         {/* Desktop links */}
