@@ -73,7 +73,7 @@ const Hero = () => (
         className="mt-12 flex items-center gap-3"
       >
         <div className="flex -space-x-2" aria-hidden="true">
-          {["K", "E", "S"].map((letter) => (
+          {["K", "E", "S", "O"].map((letter) => (
             <div
               key={letter}
               className="w-8 h-8 rounded-full bg-primary/80 border-2 border-section-dark flex items-center justify-center text-xs font-bold text-primary-foreground"

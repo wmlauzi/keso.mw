@@ -9,7 +9,6 @@ import { whatsappLink, WA_MESSAGES } from "@/lib/whatsapp";
 
 const NAV_LINKS = [
   { label: "Services", href: "#services" },
-  { label: "Gallery", href: "#gallery" },
   { label: "About", href: "#about" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
@@ -45,10 +44,10 @@ const Navbar = () => {
       >
         <a
           href="#"
-          className="text-2xl font-heading font-extrabold text-primary tracking-tight transition-transform hover:scale-105"
+          className="inline-flex items-center transition-transform hover:scale-105"
           aria-label="KESO home"
         >
-          KESO
+          <img src="/logo.png" alt="KESO logo" className="h-10 w-auto" />
         </a>
 
         {/* Desktop links */}
